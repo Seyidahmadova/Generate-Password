@@ -1,0 +1,49 @@
+*{
+    box-sizing: border-box;
+}
+
+button{
+    padding: 10px;
+    background-color:rgb(203, 203, 232);
+    font-size: 16px;
+    border: 0.2px solid;
+    border-radius: 5px;
+    margin-bottom: 15px;
+
+}
+
+a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.cont{
+   background-color: aliceblue; 
+   border-top: 5px;
+   padding: 23px;
+   border-radius: 5px;
+   display: none;
+}
+
+#inp{
+    padding: 10px;
+    border: 0.2px solid;
+    border-radius: 5px;
+    color:rebeccapurple;
+    margin-left: 5px;
+    width: 250px;
+}
+
+.newpass{
+    font-weight: bold;
+    color: rgb(221, 96, 96);
+}
+
+.cont{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    background-color: rgb(255, 255, 255);
+}

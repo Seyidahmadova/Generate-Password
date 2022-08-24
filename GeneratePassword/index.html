@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="cont">
+        <div style="margin-bottom:20px">Password Length
+            <select id="pass"></select>
+        </div>
+    
+        <div>Include symbols
+            <input id="sym" type="checkbox"></input>
+            <p>( e.g. @#$% )</p>
+        </div>
+        
+        <div>Include numbers
+            <input id="num" type="checkbox"></input>
+            <p>( e.g. 123456 )</p>
+        </div>
+    
+        <div>Include lowercase char
+            <input id="lchar" type="checkbox"></input>
+            <p>( e.g. abcdefgh )</p>
+        </div>
+    
+        <div>Include uppercase char
+            <input id="uchar" type="checkbox"></input>
+            <p>( e.g. ABCDEFGH )</p>
+        </div>
+    </div>
+
+    <div>
+        <button id="btn" type="button">Generate Password</button>
+        <div class="newpass">New Password
+            <input  id ='inp' type="text" placeholder="Your new password will appear here">
+        </div>
+    </div>
+
+
+
+    <script src="forum.js"></script>
+    <script src="time.js"></script>
+    <script src="password.js"></script>
+    <script src="fetch.js"></script>
+</body>
+</html>
